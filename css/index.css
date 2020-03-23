@@ -248,3 +248,7 @@ h3, p {
 	height: 700px;
 	width: 100%;
 }
+
+.md-raised:hover {
+	transition: 0.4s;
+}
