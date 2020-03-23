@@ -189,7 +189,7 @@ html, body {
 	height: inherit;
 	width: inherit;
 	display: table-cell;
-	background-color: rgba(0, 0, 255, 0.4);
+	background-color: rgba(0, 0, 255, 0.5);
 	padding-top: 125px;
 	padding-left: 60%;
 }
