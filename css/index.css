@@ -13,6 +13,7 @@ html, body {
 .nav li a:hover {
 	background-color: transparent;
 	color: lightgrey !important;
+	transition: ease-in 0.4s;
 }
 
 .navbar-nav .active > a {
