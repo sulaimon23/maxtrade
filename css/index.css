@@ -116,6 +116,10 @@ html, body {
 	font-weight: 600;
 }
 
+.btn-nav:hover {
+	transition: ease-in 0.4s;
+}
+
 .btn1:hover {
 	background-color: rgba(0,0,225,0.4) !important;
 	color: white;
