@@ -18,6 +18,10 @@ h3, p {
 	transition: ease-in 0.4s;
 }
 
+.nav-up {
+  top: -40px;
+}
+
 .navbar-nav .active > a {
 	color: red !important;
 }
