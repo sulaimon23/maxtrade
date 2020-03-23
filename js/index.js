@@ -4,5 +4,7 @@ $(document).ready(function(){
 	}, function(){
 		$('.menu1'.hide();
 	})
+
+	new WOW().init();
 	
 });

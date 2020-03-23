@@ -3,6 +3,10 @@ html, body {
 	font-family: 'Raleway', sans-serif;
 }
 
+h3, p {
+	color: black;
+}
+
 .nav li a {
 	color: white !important;
 	font-weight: 600;
@@ -12,7 +16,7 @@ html, body {
 
 .nav li a:hover {
 	background-color: transparent;
-	color: lightgrey !important;
+	color: grey !important;
 	transition: ease-in 0.4s;
 }
 
@@ -42,7 +46,6 @@ html, body {
 	background-image: url("../img/656852.jpg");
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 .hero-content-inner {
@@ -67,6 +70,7 @@ html, body {
 	font-size: 35px;
 	font-weight: 400;
 	margin-bottom: 35px;
+	color: white;
 }
 
 .text-content p {
@@ -74,7 +78,14 @@ html, body {
 	font-size: 20px;
 	font-weight: 400;
 	margin-bottom: 50px;
+	color: white;
 }
+
+/*=============================*/
+.bg-parallax {
+	background-attachment: fixed;
+}
+/*=============================*/
 
 .btn-general {
 	width: 130px;
@@ -103,6 +114,7 @@ html, body {
 	font-weight: 600;
 	border-width: 2px;
 	font-weight: 600;
+	color: white !important;
 }
 
 .btn-white:hover {
@@ -113,7 +125,7 @@ html, body {
 }
 
 .btn-nav {
-	font-size: 14px !important;
+	font-size: 13px !important;
 	padding: 10px 5px !important;
 	margin-top: 2%;
 	margin-right: 5px;
@@ -141,7 +153,7 @@ html, body {
 
 .dropdown-menu li a:hover {
 	background-color: transparent;
-	color: red !important;
+	color: grey !important;
 }
 
 
@@ -184,7 +196,6 @@ html, body {
 	background-image: url('../img/656683.jpg');
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 .content-box-2-inner {
@@ -204,4 +215,38 @@ html, body {
 	font-weight: 600;
 	line-height: 30px;
 	padding-left: 20px;
+}
+
+.content-box-3 {
+	height: 700px;
+}
+
+.content-box-3-inner {
+	padding-top: 140px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.content-header h3 {
+	font-size: 30px;
+	margin-bottom: 10\5px;
+}
+
+.content-header p {
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+
+.text-small {
+	font-size: 12px !important;
+	font-weight: 400;
+}
+
+.content-box-3 p {
+	font-size: 13px !important;
+}
+
+.content-box-4 {
+	height: 700px;
+	width: 100%;
 }
